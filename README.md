@@ -1,7 +1,15 @@
 ## Career Portfolio
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rodrigo_García-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/rodrigo-garcia-estrada-2001-eng)
 
 ### About Me
-I am currently studying the sixth semester on Robotics and Digital Systems, on Instituto Tecnológico y Estudios Superiores de Monterrey, on Mexico.
+My name is Rodrigo García Estrada
+I am currently studying the sixth semester on Robotics and Digital Systems, at Instituto Tecnológico y Estudios Superiores de Monterrey, on Mexico. I like programming and using hardware, and I have developed skills in different programming languages for different purposes.
+Some projects that have helped me develop these are:
+
+1. **Design of a Biometric System for Voice Signals Processing**
+2. **Intelligent Platform for Air Pressure Prototype on Agricultural Equiment**
+3. **Growth of a Corporate Network**
+4. **Cyber-Physic Videogame using an FPGA**
 
 ### Design of a Biometric System for Voice Signals Processing
 The goal of this project was to identify different voices using mathematical and statistical functions. This code was done using MATLAB, and allowed users to record their voices and analyze them. The most important function was the Fourier Fourier Transform, to find the most present frequencies. Then, we used statistical analysis to find the differences between the voice recordings, and display graphs and tables.
@@ -39,7 +47,7 @@ Table for statistical analisis
 ___
 
 
-### Intelligent Platform of Air Pressure Prototype on Agricultural Equiment
+### Intelligent Platform for Air Pressure Prototype on Agricultural Equiment
 The main goal of this project, which we worked on with John Derre, was to implement a controller to allow a bag to inflate or deflate depending on the internal pressure of it, which represented a tire. Using a closed-loop controller, we read the data from the a pressure sensor to determine the internal pressure of the bag, while an air pump and a solenoid valve were turned on and off to let the air flow to or from the bag. We used an STM32 microcontroller to apply the control, including the sensor and the actuators, as well as the LCD display and the CAN, SPI and L2C communication.
 
 Along with this, we also created a digital interface using Arduino Cloud, to view the pressure and determine de desired one. Finally, we used an extra sensor to read the movement of our plant. With this, we used the Fast Fourier Transform to analyze the frequency of the vibrations. 
@@ -139,31 +147,3 @@ Result displayed at screens
 </tr>
 </table>
 
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Roadmap
-
-See the [open issues](https://github.com/evanca/quick-portfolio/issues) for a list of proposed features (and known issues).
-___
-
-### References
-
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
