@@ -1,4 +1,6 @@
 ## Career Portfolio
+
+<img src="images/Captura de pantalla 2023-05-09 154352.png">
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rodrigo_García-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/rodrigo-garcia-estrada-2001-eng)
 
 ### About Me
@@ -111,13 +113,14 @@ ___
 ### Growth of a Corporate Network
 
 We used Packet Tracer from Cisco to create a Network of connectivity Devices that represetented a LAN and WAN Network from an Enterprise. We did a Logical and Physical disign, which helped us show how it should be connected in areas or Topologies, and how it would look when done physically. For this, we were given the characteristics of the Enterprise, and with this we could make the calculations to find how many Routers, Switches and Terminal Devices we would need for a given growth. We had to make and IP subdivision and network mask following the protocols given, so we could program these devices to connect with each other depending on the region of the country, and gave them security, names and IP address.
-<img src="images/.png">
+<img src="images/ledo mask.png">
 Masking and subdivision planning
-<img src="images/.png">
+<img src="images/ledo fis.jpg">
 Physical View
 
-<img src="images/.png">
+<img src="images/ledo log.jpg">
 Logical View
+
 ___
 
 ### Cyber-Physic Videogame using an FPGA
