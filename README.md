@@ -5,7 +5,7 @@
 <p align="center">
   <img 
     width="400"
-    height="300"
+    height="450"
     src="images/Captura de pantalla 2023-05-09 154352.png""
   >
 </p>
