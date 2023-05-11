@@ -40,7 +40,7 @@ ___
 ### Intelligent Platform of Air Pressure Prototype on Agricultural Equiment
 The main goal of this project, which we worked on with John Derre, was to implement a controller to allow a bag to inflate or deflate depending on the internal pressure of it, which represented a tire. Using a closed-loop controller, we read the data from the a pressure sensor to determine the internal pressure of the bag, while an air pump and a solenoid valve were turned on and off to let the air flow to or from the bag. We used an STM32 microcontroller to apply the control, including the sensor and the actuators, as well as the LCD display and the CAN, SPI and L2C communication.
 
-Along with this, we also created a digital interface using Arduino Cloud, to view the pressure and determine de desired one. The communication was possible thanks to a CAN protocol, the ESP32 and the CAN modules. Finally, we used an extra sensor to read the movement of our plant. With this, we used the Fast Fourier Transform to analyze the frequency of the vibrations. 
+Along with this, we also created a digital interface using Arduino Cloud, to view the pressure and determine de desired one. Finally, we used an extra sensor to read the movement of our plant. With this, we used the Fast Fourier Transform to analyze the frequency of the vibrations. 
 
 <table style="width:100%">
 <tr>
@@ -97,16 +97,18 @@ LCD display
 Arduino Cloud interface
 ___
 
-### Colaborative Robotized Chores on Real Envirornment Solution
-On this project, we used a Geared Motor with Encoder, so thta we could read the position and velocity of it. This was donde using Arduino, and with MATLAB we implemented a PI controller to give the command to the motor of how many spins it should make, or what velocity in should have. This control was tested in MATLAB, so that we could determine if it was the right one to use, one for the poistion control and another for the velocity one. 
-All of this communication was done using ROS Nodes, so that we learned how to use Subscribers and Publishers, as well as the implementation of a closed-loop PID control.
+### Growth of a Corporate Network
 
-### Markdown
+We used Packet Tracer from Cisco to create a Network of connectivity Devices that represetented a LAN and WAN Network from an Enterprise. We did a Logical and Physical disign, which helped us show how it should be connected in areas or Topologies, and how it would look when done physically. For this, we were given the characteristics of the Enterprise, and with this we could make the calculations to find how many Routers, Switches and Terminal Devices we would need for a given growth. We had to make and IP subdivision and network mask following the protocols given, so we could program these devices to connect with each other depending on the region of the country, and gave them security, names and IP address.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+___
+
+### Cyber-Physic Videogame using an FPGA
+
+I developed a Space Invaders-style video game that utilized an FPGA system.It is controlled by reading an accelerometer through UART communication protocol. When the player wins or loses,it displays an image to an external monitor via VGA. I was responsible for developing the game algorithm. I made sure there was a functional communication between the devices. And run a quality control test on the game functionality. My technical skills in programming languages such as Processing, VHDL, and Verilog were utilized to achieve the project goals.
+
+
 
 # Header 1
 ## Header 2
