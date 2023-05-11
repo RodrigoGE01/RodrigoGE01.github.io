@@ -2,6 +2,14 @@
 
 <img src="images/Captura de pantalla 2023-05-09 154352.png">
 
+<p align="center">
+  <img 
+    width="300"
+    height="300"
+    src="images/Captura de pantalla 2023-05-09 154352.png""
+  >
+</p>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rodrigo_García-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/rodrigo-garcia-estrada-2001-eng)
 
 ### About Me
