@@ -1,19 +1,105 @@
-## Developer Portfolio Landing Page Template
+## Career Portfolio
 
-### Introduction
+### About Me
+I am currently studying the sixth semester on Robotics and Digital Systems, on Instituto Tecnológico y Estudios Superiores de Monterrey, on Mexico.
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+### Design of a Biometric System for Voice Signals Processing
+The goal of this project was to identify different voices using mathematical and statistical functions. This code was done using MATLAB, and allowed users to record their voices and analyze them. The most important function was the Fourier Fourier Transform, to find the most present frequencies. Then, we used statistical analysis to find the differences between the voice recordings, and display graphs and tables.
 
-<img src="images/demo.gif?raw=true"/>
-
-### Installation
-
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
+<table style="width:100%">
+<tr>
+<td>
+<img src="images/AMplitud.png">
+</a>
+</td>
+<td><img src="images/Frecuencias.png">
+</a>
+</td>
+<td>
+<img src="images/Tabla.png">
+</a>
+</td>
+</tr>
+<tr>
+<td>
+Voice recording's decibels amplitud
+</a>
+</td>
+<td>
+Frecuency analysis 
+</a>
+</td>
+<td>
+Table for statistical analisis
+</a>
+</td>
+</tr>
+</table>
 ___
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+### Intelligent Platform of Air Pressure Prototype on Agricultural Equiment
+The main goal of this project, which we worked on with John Derre, was to implement a controller to allow a bag to inflate or deflate depending on the internal pressure of it, which represented a tire. Using a closed-loop controller, we read the data from the a pressure sensor to determine the internal pressure of the bag, while an air pump and a solenoid valve were turned on and off to let the air flow to or from the bag. We used an STM32 microcontroller to apply the control, including the sensor and the actuators, as well as the LCD display and the CAN, SPI and L2C communication.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Along with this, we also created a digital interface using Arduino Cloud, to view the pressure and determine de desired one. The communication was possible thanks to a CAN protocol, the ESP32 and the CAN modules. Finally, we used an extra sensor to read the movement of our plant. With this, we used the Fast Fourier Transform to analyze the frequency of the vibrations. 
+
+<table style="width:100%">
+<tr>
+<td>
+<img src="images/d_control deere.png">
+</a>
+</td>
+<td>
+<img src="images/frec deere.png">
+</a>
+</td>
+<td>
+<img src="images/esq deere.png">
+</a>
+</td>
+</tr>
+<tr>
+<td>
+Control Diagram
+</a>
+</td>
+<td>
+Vibration Analisis
+</a>
+</td>
+<td>
+Esquematic
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<img src="images/planta deere.png">
+</a>
+</td>
+<td>
+<img src="images/lcd deere.png">
+</a>
+</td>
+</tr>
+<tr>
+<td>
+Presented Plant
+</a>
+</td>
+<td>
+LCD display
+</a>
+</td>
+</tr>
+</table>
+
+<img src="images/iot cloud.png">
+Arduino Cloud interface
+___
+
+### Colaborative Robotized Chores on Real Envirornment Solution
+On this project, we used a Geared Motor with Encoder, so thta we could read the position and velocity of it. This was donde using Arduino, and with MATLAB we implemented a PI controller to give the command to the motor of how many spins it should make, or what velocity in should have. This control was tested in MATLAB, so that we could determine if it was the right one to use, one for the poistion control and another for the velocity one. 
+All of this communication was done using ROS Nodes, so that we learned how to use Subscribers and Publishers, as well as the implementation of a closed-loop PID control.
 
 ### Markdown
 
