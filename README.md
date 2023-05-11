@@ -95,6 +95,7 @@ LCD display
 
 <img src="images/iot cloud.png">
 Arduino Cloud interface
+
 ___
 
 ### Growth of a Corporate Network
@@ -106,8 +107,32 @@ ___
 
 ### Cyber-Physic Videogame using an FPGA
 
-I developed a Space Invaders-style video game that utilized an FPGA system.It is controlled by reading an accelerometer through UART communication protocol. When the player wins or loses,it displays an image to an external monitor via VGA. I was responsible for developing the game algorithm. I made sure there was a functional communication between the devices. And run a quality control test on the game functionality. My technical skills in programming languages such as Processing, VHDL, and Verilog were utilized to achieve the project goals.
+Working with Intel, we programmed a videogame controlled via an FPGA and displayed on two different screens. We used a button and an accelerometer from the FPGA, so that we implemented UART communication, and VGA for the screens. This was the first time using VHDL and Processing, as well as the first project to do after virtual classes due to pandemic.
 
+<table style="width:100%">
+<tr>
+<td>
+<img src="vga control.png">
+</a>
+</td>
+<td>
+<img src="vga dead.png">
+</a>
+</td>
+</tr>
+<tr>
+<td>
+FPGA as a controller
+</a>
+</td>
+</tr>
+<tr>
+<td>
+Result displayed at screens
+</a>
+</td>
+</tr>
+</table>
 
 
 # Header 1
