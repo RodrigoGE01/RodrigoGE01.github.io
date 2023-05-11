@@ -4,8 +4,8 @@
 
 <p align="center">
   <img 
-    width="400"
-    height="450"
+    width="410"
+    height="420"
     src="images/Captura de pantalla 2023-05-09 154352.png""
   >
 </p>
