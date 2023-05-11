@@ -113,7 +113,7 @@ ___
 
 ### Growth of a Corporate Network
 
-We used Packet Tracer from Cisco to create a Network of connectivity Devices that represetented a LAN and WAN Network from an Enterprise. We did a Logical and Physical disign, which helped us show how it should be connected in areas or Topologies, and how it would look when done physically. For this, we were given the characteristics of the Enterprise, and with this we could make the calculations to find how many Routers, Switches and Terminal Devices we would need for a given growth. We had to make and IP subdivision and network mask following the protocols given, so we could program these devices to connect with each other depending on the region of the country, and gave them security, names and IP address.
+We used Packet Tracer from Cisco to create a Network of connectivity devices that represetented a LAN and WAN Network from an enterprise. We did a Logical and Physical disign, which helped us show how it should be connected in areas or topologies, and how it would look when done physically. For this, we were given the characteristics of the enterprise. From this, we could make the calculations to find how many routers, switches and terminal devices we would need for a given growth. We had to make and IP subdivision and network mask following the protocols given. And with this, we were able to program these devices to connect with each other depending on the region of the country, and gave them security, names and IP address.
 
 <img src="images/Diapositiva1.PNG">
 Physical View
@@ -125,7 +125,7 @@ ___
 
 ### Cyber-Physic Videogame using an FPGA
 
-Working with Intel, we programmed a videogame controlled via an FPGA and displayed on two different screens. We used a button and an accelerometer from the FPGA, so that we implemented UART communication, and VGA for the screens. This was the first time using VHDL and Processing, as well as the first project to do after virtual classes due to pandemic.
+Working with Intel, we programmed a videogame controlled via an FPGA, and displayed on two different screens. We used a button and an accelerometer from the FPGA, so that we implemented UART communication, and VGA for the screens. This was the first time using VHDL and Processing, as well as the first project to do after virtual classes due to pandemic.
 
 <table style="width:100%">
 <tr>
