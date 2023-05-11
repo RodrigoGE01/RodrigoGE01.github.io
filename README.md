@@ -1,6 +1,7 @@
 ## Career Portfolio
 
 <img src="images/Captura de pantalla 2023-05-09 154352.png">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rodrigo_García-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/rodrigo-garcia-estrada-2001-eng)
 
 ### About Me
@@ -117,10 +118,10 @@ We used Packet Tracer from Cisco to create a Network of connectivity Devices tha
 <img src="images/ledo mask.png">
 Masking and subdivision planning
 
-<img src="images/ledo fis.jpg">
+<img src="images/Diapositiva1.PNG">
 Physical View
 
-<img src="images/ledo log.jpg">
+<img src="images/Diapositiva2.PNG">
 Logical View
 
 ___
