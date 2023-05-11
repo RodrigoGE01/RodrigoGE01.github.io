@@ -1,10 +1,8 @@
 ## Career Portfolio
 
-<img src="images/Captura de pantalla 2023-05-09 154352.png">
-
 <p align="center">
   <img 
-    width="440"
+    width="450"
     height="420"
     src="images/Captura de pantalla 2023-05-09 154352.png""
   >
